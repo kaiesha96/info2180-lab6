@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/css/style.css" type="text/css" />
-        <script type="text/javascript" src="/js/javascript.js"></script>
-        
+        <title>Dictionary</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/javascript.js"></script>
+
     </head>
     <body>
-        <div class = "container">
+        <div class ="container">
             <div class = "header">
-                <h1>Definitions</h1>
+                <h1>
+                    Web Dictionary
+                </h1>
             </div>
-            <div id = "form-cont" class = "form-cont">
-            <form action="GET" class="search-form">
-            		<input class="search-area" placeholder="Enter Your Word" type="search" value="" name="search" id="search">
-           		<input class="search-btn" id="search-btn" type="submit" value="Search">
-           		</form>
-           	</div>
+            <div id="form-cont" class="form-cont">
+            	<form action="GET" class="search-form">
+            		<input class="search-area" placeholder="Example 'AJAX'" type="search" value="" name="search" id="search">
+            		<input class="search-btn" id="search-btn" type="submit" value="Search">
+            	</form>
+            </div>
+            <h2>
+                Result
+            </h2>
+            <div id="result" class="result">
+            </div>
         </div>
-        
     </body>
 </html>

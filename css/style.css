@@ -6,8 +6,8 @@ html, body {
 }
 .header{
 	text-align: center;
-	background: #056b9f;
-	color: blu;
+	background: purple;
+	color: white;
 	padding: 10px;
 }
 .form-cont{
